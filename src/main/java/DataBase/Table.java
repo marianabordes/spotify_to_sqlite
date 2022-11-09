@@ -22,6 +22,7 @@ public class Table {
                 + " albumType String\n"
                 + ");";
 
+
         String sqlTracks = "CREATE TABLE IF NOT EXISTS tracks (\n"
                 + "	trackId String,\n"
                 + "	trackName String NOT NULL,\n"
